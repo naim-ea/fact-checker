@@ -10,7 +10,6 @@ This is a proof-of-concept for a fact-checking tool that uses AI to check the ac
 
 ## Features
 
-- Check the accuracy of statements made in the media
 - Use AI to check the accuracy of statements made in the media
 - Rate limiting
 - Caching
