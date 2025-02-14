@@ -42,7 +42,7 @@ async function performFactCheck(text: string): Promise<FactCheckResult[]> {
   return await withRetry(
     async () => {
       const { text: factCheckResult } = await generateText({
-        model: openai("gpt-4o"),
+        model: openai("gpt-4o-mini"),
         prompt: `Fact-check the following text: "${text}"
         Provide a JSON array of objects, where each object represents a fact-check for a specific clause or statement in the text.
         Each object MUST have the following properties:
